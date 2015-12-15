@@ -11,7 +11,7 @@
         <groupId>br.jus.trepi</groupId>
         <artifactId>main-pom</artifactId>
         <version>1.0-SNAPSHOT</version>  
-            <relativePath>../main-pom</relativePath>
+        <relativePath>../main-pom</relativePath>
       
     </parent>
 
@@ -20,6 +20,10 @@
     <properties>
         <endorsed.dir>${project.build.directory}/endorsed</endorsed.dir>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+        
+        <timestamp>${maven.build.timestamp}</timestamp>
+        <maven.build.timestamp.format>yyyy_MM_dd_HH_mm</maven.build.timestamp.format>
+        
     </properties>
     
 
