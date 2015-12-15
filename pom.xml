@@ -24,6 +24,8 @@
     
 
     <build>
+        
+        <finalName>${project.artifactId}_${project.version}_${timestamp}</finalName>
         <plugins>
             <plugin>
                 <groupId>org.apache.maven.plugins</groupId>
